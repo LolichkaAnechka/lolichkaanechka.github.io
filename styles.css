@@ -466,6 +466,7 @@ a {
 
 .pick-heroes{
 	display: flex;
+	width: 100%;
 	justify-content:space-between;
 	gap: 2%;
 }
@@ -1376,7 +1377,7 @@ a {
 
 	}
 
-	.mobile-footer h3{
+	.mobile-footer h3{	
 		font-size: 16px;
 	}
 
