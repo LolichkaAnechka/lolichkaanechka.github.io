@@ -495,8 +495,10 @@ a {
 }
 
 .ban-line img{
+	object-fit: contain;
+
 	border-radius: 30%;
-	width: 100%;
+	max-width: 7%;
 }
 
 .matches h1{
@@ -533,7 +535,7 @@ a {
 }
 
 .teams-n-score img {
-	width: 100%;
+	width: 12%;
 	height: 100%;
 
 }
@@ -542,7 +544,7 @@ a {
 	aspect-ratio: 1/1;
 	max-height: 100px;
 	max-width: 100px;
-	width: 70%;
+	width: 8%;
 	height: auto;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -1039,6 +1041,7 @@ a {
 }
 
 @media (max-width: 1000px) {
+
 
 	.blog-landing-sponsors{
 		margin-top: 60px;
